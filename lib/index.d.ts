@@ -39,7 +39,7 @@ export declare const test: FancyTypes.Base<FancyTypes.Context, {
         output: {
             sandbox: import("sinon").SinonSandbox;
         };
-        args: [any, any, any];
+        args: [any, any, (stub: import("sinon").SinonStub<any[], any>) => import("sinon").SinonStub<any[], any>];
     };
 } & {
     stdin: {
