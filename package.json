@@ -5,7 +5,7 @@
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/oclif/test/issues",
   "dependencies": {
-    "fancy-test": "^1.4.3"
+    "fancy-test": "git+https://github.com/stephankaag/fancy-test.git#dist"
   },
   "devDependencies": {
     "@oclif/command": "^1.6.0",
